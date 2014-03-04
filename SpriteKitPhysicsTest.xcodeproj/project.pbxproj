@@ -24,6 +24,11 @@
 		7D8343E318C556D9005D3F38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8343BE18C556D9005D3F38 /* UIKit.framework */; };
 		7D8343EB18C556D9005D3F38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D8343E918C556D9005D3F38 /* InfoPlist.strings */; };
 		7D8343ED18C556D9005D3F38 /* SpriteKitPhysicsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8343EC18C556D9005D3F38 /* SpriteKitPhysicsTestTests.m */; };
+		7D8343FC18C559C1005D3F38 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8343F718C559C1005D3F38 /* circle.png */; };
+		7D8343FD18C559C1005D3F38 /* octagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8343F818C559C1005D3F38 /* octagon.png */; };
+		7D8343FE18C559C1005D3F38 /* sand.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8343F918C559C1005D3F38 /* sand.png */; };
+		7D8343FF18C559C1005D3F38 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8343FA18C559C1005D3F38 /* square.png */; };
+		7D83440018C559C1005D3F38 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8343FB18C559C1005D3F38 /* triangle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,11 @@
 		7D8343E818C556D9005D3F38 /* SpriteKitPhysicsTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKitPhysicsTestTests-Info.plist"; sourceTree = "<group>"; };
 		7D8343EA18C556D9005D3F38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D8343EC18C556D9005D3F38 /* SpriteKitPhysicsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKitPhysicsTestTests.m; sourceTree = "<group>"; };
+		7D8343F718C559C1005D3F38 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		7D8343F818C559C1005D3F38 /* octagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octagon.png; sourceTree = "<group>"; };
+		7D8343F918C559C1005D3F38 /* sand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sand.png; sourceTree = "<group>"; };
+		7D8343FA18C559C1005D3F38 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		7D8343FB18C559C1005D3F38 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,7 @@
 				7D8343E618C556D9005D3F38 /* SpriteKitPhysicsTestTests */,
 				7D8343B918C556D9005D3F38 /* Frameworks */,
 				7D8343B818C556D9005D3F38 /* Products */,
+				7D8343F618C559C1005D3F38 /* Shapes */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +173,18 @@
 				7D8343E918C556D9005D3F38 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D8343F618C559C1005D3F38 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				7D8343F718C559C1005D3F38 /* circle.png */,
+				7D8343F818C559C1005D3F38 /* octagon.png */,
+				7D8343F918C559C1005D3F38 /* sand.png */,
+				7D8343FA18C559C1005D3F38 /* square.png */,
+				7D8343FB18C559C1005D3F38 /* triangle.png */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +265,12 @@
 			files = (
 				7D8343C718C556D9005D3F38 /* InfoPlist.strings in Resources */,
 				7D8343DA18C556D9005D3F38 /* Images.xcassets in Resources */,
+				7D8343FE18C559C1005D3F38 /* sand.png in Resources */,
+				7D8343FC18C559C1005D3F38 /* circle.png in Resources */,
+				7D83440018C559C1005D3F38 /* triangle.png in Resources */,
+				7D8343FD18C559C1005D3F38 /* octagon.png in Resources */,
 				7D8343D818C556D9005D3F38 /* Spaceship.png in Resources */,
+				7D8343FF18C559C1005D3F38 /* square.png in Resources */,
 				7D8343D018C556D9005D3F38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
